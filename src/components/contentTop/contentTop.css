@@ -1,0 +1,27 @@
+.top-content {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 83vw;
+}
+
+.right-content {
+  display: flex;
+}
+
+.bottom-border {
+  border: 1px solid #dedcdc;
+  width: 95vw;
+}
+
+.box{
+    margin: 0px 5px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.option select{
+    border: 0;
+    outline: none;
+    background: #fff;
+}

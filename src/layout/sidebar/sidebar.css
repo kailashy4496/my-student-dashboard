@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background: whitesmoke;
+  color: #000;
+  height: 100vh;
+  width: 220px;
+  transition: all 0.5s;
+  border-right: 1px solid #dcdcdc;
+}
+
+.top-left {
+  display: flex;
+  font-size: 15px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.left {
+  display: flex;
+  border-right: 1px solid #dcdcdc;
+  padding: 5px;
+}
+.left .logo {
+  padding: 5px;
+  margin: auto 5px;
+  border-radius: 5px;
+  background: #f2f1f1;
+  box-shadow: 5px 1px 6px 6px #fff;
+}
+.plan-name {
+  padding: 5px;
+}
+.logo-1 {
+  font-size: 12px;
+  opacity: 0.3;
+}
+.logo-2 {
+  font-size: 16px;
+}
+.right {
+  font-size: 25px;
+  margin: auto;
+}
+
+.sidebar1 {
+  overflow-y: scroll;
+}
+
+.item {
+  display: flex;
+  padding: 5px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.dashboard {
+  margin-left: 3px;
+  font-size: 22px;
+  background-color: #deeccb;
+  color: #008000;
+}
+
+.your-icon {
+  font-size: 22px;
+}
+
+.item:hover {
+  cursor: pointer;
+  background: #d8d9da;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+
+.link_text {
+  font-size: 15px;
+}
+
+.academy {
+  margin: 5px 20px;
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+.sidebar-footer {
+  margin-top: 53%;
+  display: flex;
+  font-size: 15px;
+  border-top: 1px solid #dcdcdc;
+}
+
+.footer-left {
+  display: flex;
+  padding: 5px;
+}
+.footer-left > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
