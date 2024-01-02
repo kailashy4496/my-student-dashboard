@@ -3,6 +3,7 @@
   padding: 20px;
   justify-content: space-between;
   width: 83vw;
+  background: #fff;
 }
 
 .right-content {
@@ -14,14 +15,40 @@
   width: 95vw;
 }
 
-.box{
-    margin: 0px 5px;
-    padding: 5px;
-    border: 1px solid gray;
+.box {
+  margin: 0px 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 3px;
 }
 
-.option select{
-    border: 0;
-    outline: none;
-    background: #fff;
+.option select {
+  border: 0;
+  outline: none;
+  background: #fff;
+}
+
+.filter {
+  display: flex;
+}
+
+.filter-icon,
+.filter-name,
+.filter-num {
+  padding: 0px 3px;
+}
+
+.filter-icon{
+  color: #84d315;
+}
+.filter-num{
+  background: #def8b9;
+  color: green;
+  padding: 0px 7px;
+  border-radius: 50%;
+}
+
+.edit{
+  background: #3d3d80;
+  color: #fff;
 }

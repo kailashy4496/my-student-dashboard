@@ -4,7 +4,7 @@ import ContentMain from "../../components/contentMain/contentMain";
 
 const Content = () => {
   return (
-    <div className="content">
+    <div style={{ background: " #f1efef" }}>
       <ContentTop />
       <ContentMain />
     </div>
