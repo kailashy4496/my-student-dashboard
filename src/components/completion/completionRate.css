@@ -1,0 +1,37 @@
+.completion {
+  height: 100%;
+  width: 100%;
+}
+
+.completion-top-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.completion-grow-percent {
+  height: 30px;
+  border-radius: 3px;
+  background: #feb9a9;
+  color: #cc580b;
+  padding: 0px 10px;
+  margin-top: 5px;
+}
+
+.completion-report{
+  color: #00a2ff;
+}
+
+.completion-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invite {
+  margin-right: 20px;
+}
+.invite-text,
+.activate-text {
+  font-size: 12px;
+  opacity: 0.3;
+}

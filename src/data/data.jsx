@@ -1,4 +1,3 @@
-// import GridViewIcon from "@mui/icons-material/GridView";
 import AddToPhotosOutlinedIcon from "@mui/icons-material/AddToPhotosOutlined";
 import Groups2OutlinedIcon from "@mui/icons-material/Groups2Outlined";
 import DrawOutlinedIcon from "@mui/icons-material/DrawOutlined";
@@ -11,7 +10,6 @@ import { RxLoop } from "react-icons/rx";
 import { FaRegCreditCard } from "react-icons/fa";
 
 export const navigationLinks = [
-  //   { id: 1, title: "Dashboard", icon: <GridViewIcon />, link: "/" },
   {
     id: 1,
     title: "Content",
