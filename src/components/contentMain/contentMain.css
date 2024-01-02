@@ -11,7 +11,6 @@
 }
 .main-box {
   background-color: white;
-  padding: 10px;
   border-radius: 3px;
   box-shadow: 0px 0px 1px 0px;
 }
@@ -20,12 +19,18 @@
 .box-2,
 .box-3 {
   height: 120px;
+  padding: 10px;
 }
 
 .box-4 {
   grid-column-start: 1;
   grid-column-end: 3;
   height: 40vh;
+}
+
+.main-box-right{
+  box-shadow: 0px 0px 1px 0px;
+  border-radius: 3px;
 }
 .box-5 {
     height: 40vh;

@@ -45,3 +45,11 @@ export const yourAcademy = [
   { id: 3, title: "School Setting", icon: <IoSettingsOutline /> },
   { id: 4, title: "Billing Portal", icon: <FaRegCreditCard /> },
 ];
+
+export const studentData = [
+  { id: 1, name: "Adam", progress: "5", complete: "36" },
+  { id: 2, name: "Johns", progress: "5", complete: "34" },
+  { id: 3, name: "Rohan ", progress: "6", complete: "33" },
+  { id: 4, name: "Shane ", progress: "4", complete: "30" },
+  { id: 5, name: "Ervinn ", progress: "4", complete: "29" },
+];

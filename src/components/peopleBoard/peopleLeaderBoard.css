@@ -1,0 +1,52 @@
+.leader-board {
+  height: 100%;
+  width: 100%;
+}
+
+.top-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  background: #fff;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.board-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.board-heading > p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.student-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 6.8px 20px;
+  background: #fff;
+  border-bottom: 3px solid #f1efef;
+}
+
+.all-student-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+  background: #fff;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.student-num {
+  opacity: 0.4;
+}
+
+.left-btn,
+.right-btn {
+  padding: 1px 3px;
+  margin: 0px 2px;
+  border: 1px solid grey;
+}
